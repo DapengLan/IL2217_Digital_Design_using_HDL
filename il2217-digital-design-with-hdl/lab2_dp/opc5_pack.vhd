@@ -1,0 +1,81 @@
+package opc5_pack is
+
+  type opc5 is ('X','0','1','Z','H');
+  type opc5_vector is array(natural range <>) of opc5;
+
+  function open_collector (s : opc5_vector) return opc5;
+
+  subtype opc_logic is open_collector opc5;
+
+  type opc_logic_vector is array(natural range <>) of opc_logic;
+
+  function "xor" (a:opc5; b:opc5) return opc5;
+  function "xnor" (a:opc5; b:opc5) return opc5;
+
+end opc5_pack;
+  
+-------------------------------------------------------------------------------
+
+package body opc5_pack is
+  type opc5_table is array(opc5, opc5) of opc5;
+  
+  constant resolution_table : opc5_table := (
+    --    --------------------------------------
+    --    | 'X'  '0'  '1'  'Z'  'H'
+    --    --------------------------------------
+          ( 'X', 'X', 'X', 'X', 'X'), -- | 'X' |
+          ( 'X', '0', 'X', '0', '0'), -- | '0' |
+          ( 'X', 'X', '1', '1', '1'), -- | '1' |
+          ( 'X', '0', '1', 'Z', 'H'), -- | 'Z' |
+          ( 'X', '0', '1', 'H', 'H')  -- | 'H' |  
+        );
+  
+  function open_collector (s : opc5_vector) return opc5 is
+    variable result : opc5 := 'Z';  
+  begin
+    if s'length = 1 then
+      return s(s'low);
+    else
+      for i in s'range loop
+        result := resolution_table(result, s(i));
+      end loop;
+    end if;
+    return result;
+  end open_collector;
+
+
+  constant xor_table : opc5_table := (
+    --    --------------------------------------
+    --    | 'X'  '0'  '1'  'Z'  'H'
+    --    --------------------------------------
+          ( 'X', 'X', 'X', 'X', 'X'), -- | 'X' |
+          ( 'X', '0', '1', 'X', '1'), -- | '0' |
+          ( 'X', '1', '0', 'X', '0'), -- | '1' |
+          ( 'X', 'X', 'X', 'X', 'X'), -- | 'Z' |
+          ( 'X', '1', '0', 'X', '0')  -- | 'H' |  
+        );
+
+  function "xor" (a:opc5; b:opc5) return opc5 is
+  begin
+    return xor_table(a,b);
+  end "xor";
+  
+
+  constant xnor_table : opc5_table := (
+    --    --------------------------------------
+    --    | 'X'  '0'  '1'  'Z'  'H'
+    --    --------------------------------------
+          ( 'X', 'X', 'X', 'X', 'X'), -- | 'X' |
+          ( 'X', '1', '0', 'X', '0'), -- | '0' |
+          ( 'X', '0', '1', 'X', '1'), -- | '1' |
+          ( 'X', 'X', 'X', 'X', 'X'), -- | 'Z' |
+          ( 'X', '0', '1', 'X', '1')  -- | 'H' |  
+        );
+
+  function "xnor" (a:opc5; b:opc5) return opc5 is
+  begin
+    return xnor_table(a,b);
+  end "xnor";
+
+  
+end opc5_pack;

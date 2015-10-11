@@ -1,0 +1,57 @@
+Library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_signed.ALL;
+use work.ALL;
+
+ENTITY alarm IS
+	
+END alarm;
+
+ARCHITECTURE test_alarm OF alarm IS 
+	COMPONENT clock_dev
+	port ( UP, CLK, RESET : in std_logic;
+		OUT1 : out std_logic;
+		OUT2 : out std_logic_vector(3 downto 0)
+	);
+	END COMPONENT;
+	
+	COMPONENT clock_ctrl
+	PORT( GlobalUP : in std_logic;
+		in0 : in std_logic_vector(3 downto 0);
+		in1 : in std_logic_vector(3 downto 0);
+		up0, reset0, up1, reset1 : out std_logic
+	);
+	END COMPONENT;
+	
+	COMPONENT clock_en
+	PORT ( UP, CLK, RESET : in std_logic;
+		OUT1 : out std_logic;
+		OUT2 : out std_logic_vector(3 downto 0);
+		en : in std_logic
+	);
+	END COMPONENT;
+
+	signal UP : std_logic := '1';
+	signal RESET : std_logic := '0';
+	signal reset0 : std_logic := '1';
+	signal reset1 : std_logic := '1';
+	signal up0 : std_logic := '1';
+	signal up1 : std_logic := '1';
+	signal CLK : std_logic := '0';
+	signal ref_clk : std_logic := '0';
+	signal out0 : std_logic_vector(3 downto 0):=(others=>'0');
+	signal out1 : std_logic_vector(3 downto 0):=(others=>'0');
+	signal counter0 : std_logic_vector(3 downto 0):=(others=>'0');
+	signal counter1 : std_logic := '0';
+	signal counter2 : std_logic := '0';
+	signal en: std_logic := '1';
+	
+	
+BEGIN
+
+	U1: clock_dev port map ( UP, CLK, RESET, ref_clk, counter0);
+	E0: clock_en port map ( up0, ref_clk, reset0, counter1, out0, en);
+	E1: clock_en port map ( up1, ref_clk, reset1, counter2, out1, en);
+	C : clock_ctrl port map( UP, out0, out1, up0, reset0, up1, reset1);
+	
+END; -- alarm

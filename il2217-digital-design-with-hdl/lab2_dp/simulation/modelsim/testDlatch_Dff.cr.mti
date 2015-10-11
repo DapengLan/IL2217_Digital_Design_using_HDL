@@ -1,0 +1,12 @@
+/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/simulation/modelsim/lab2_dp.vho {1 {vcom -work work2 -2002 -explicit /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/simulation/modelsim/lab2_dp.vho
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package vital_timing
+-- Loading package vital_primitives
+-- Loading package cycloneii_atom_pack
+-- Loading package cycloneii_components
+-- Compiling entity dlatch2
+-- Compiling architecture structure of dlatch2
+
+} {} {}}

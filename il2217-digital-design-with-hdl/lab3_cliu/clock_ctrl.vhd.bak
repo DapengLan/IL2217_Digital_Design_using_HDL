@@ -1,0 +1,18 @@
+Library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_signed.ALL;
+use work.ALL;
+
+entity clock_ctrl is 
+
+
+
+
+
+
+end clock_ctrl;
+
+
+
+
+

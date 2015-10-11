@@ -1,0 +1,749 @@
+|alu
+SWTO[0] => q_nand[0].IN0
+SWTO[0] => q_nor[0].IN0
+SWTO[0] => addSub:T1.a[0]
+SWTO[0] => addSub:T2.a[0]
+SWTO[0] => bcd2_7seg:W1.bcd[0]
+SWTO[1] => q_nand[1].IN0
+SWTO[1] => q_nor[1].IN0
+SWTO[1] => addSub:T1.a[1]
+SWTO[1] => addSub:T2.a[1]
+SWTO[1] => bcd2_7seg:W1.bcd[1]
+SWTO[2] => q_nand[2].IN0
+SWTO[2] => q_nor[2].IN0
+SWTO[2] => addSub:T1.a[2]
+SWTO[2] => addSub:T2.a[2]
+SWTO[2] => bcd2_7seg:W1.bcd[2]
+SWTO[3] => q_nand[3].IN0
+SWTO[3] => q_nor[3].IN0
+SWTO[3] => addSub:T1.a[3]
+SWTO[3] => addSub:T2.a[3]
+SWTO[3] => bcd2_7seg:W1.bcd[3]
+SWTO[4] => q_nand[4].IN0
+SWTO[4] => q_nor[4].IN0
+SWTO[4] => addSub:T1.a[4]
+SWTO[4] => addSub:T2.a[4]
+SWTO[4] => bcd2_7seg:W2.bcd[0]
+SWTO[5] => q_nand[5].IN0
+SWTO[5] => q_nor[5].IN0
+SWTO[5] => addSub:T1.a[5]
+SWTO[5] => addSub:T2.a[5]
+SWTO[5] => bcd2_7seg:W2.bcd[1]
+SWTO[6] => q_nand[6].IN0
+SWTO[6] => q_nor[6].IN0
+SWTO[6] => addSub:T1.a[6]
+SWTO[6] => addSub:T2.a[6]
+SWTO[6] => bcd2_7seg:W2.bcd[2]
+SWTO[7] => q_nand[7].IN0
+SWTO[7] => q_nor[7].IN0
+SWTO[7] => addSub:T1.a[7]
+SWTO[7] => addSub:T2.a[7]
+SWTO[7] => bcd2_7seg:W2.bcd[3]
+SWTO[8] => q_nand[0].IN1
+SWTO[8] => q_nor[0].IN1
+SWTO[8] => addSub:T1.b[0]
+SWTO[8] => addSub:T2.b[0]
+SWTO[8] => bcd2_7seg:W3.bcd[0]
+SWTO[9] => q_nand[1].IN1
+SWTO[9] => q_nor[1].IN1
+SWTO[9] => addSub:T1.b[1]
+SWTO[9] => addSub:T2.b[1]
+SWTO[9] => bcd2_7seg:W3.bcd[1]
+SWTO[10] => q_nand[2].IN1
+SWTO[10] => q_nor[2].IN1
+SWTO[10] => addSub:T1.b[2]
+SWTO[10] => addSub:T2.b[2]
+SWTO[10] => bcd2_7seg:W3.bcd[2]
+SWTO[11] => q_nand[3].IN1
+SWTO[11] => q_nor[3].IN1
+SWTO[11] => addSub:T1.b[3]
+SWTO[11] => addSub:T2.b[3]
+SWTO[11] => bcd2_7seg:W3.bcd[3]
+SWTO[12] => q_nand[4].IN1
+SWTO[12] => q_nor[4].IN1
+SWTO[12] => addSub:T1.b[4]
+SWTO[12] => addSub:T2.b[4]
+SWTO[12] => bcd2_7seg:W4.bcd[0]
+SWTO[13] => q_nand[5].IN1
+SWTO[13] => q_nor[5].IN1
+SWTO[13] => addSub:T1.b[5]
+SWTO[13] => addSub:T2.b[5]
+SWTO[13] => bcd2_7seg:W4.bcd[1]
+SWTO[14] => q_nand[6].IN1
+SWTO[14] => q_nor[6].IN1
+SWTO[14] => addSub:T1.b[6]
+SWTO[14] => addSub:T2.b[6]
+SWTO[14] => bcd2_7seg:W4.bcd[2]
+SWTO[15] => q_nand[7].IN1
+SWTO[15] => q_nor[7].IN1
+SWTO[15] => addSub:T1.b[7]
+SWTO[15] => addSub:T2.b[7]
+SWTO[15] => bcd2_7seg:W4.bcd[3]
+SWTO[16] => Mux0.IN3
+SWTO[16] => Mux1.IN1
+SWTO[16] => Mux2.IN1
+SWTO[16] => Mux3.IN1
+SWTO[16] => Mux4.IN1
+SWTO[16] => Mux5.IN1
+SWTO[16] => Mux6.IN1
+SWTO[16] => Mux7.IN1
+SWTO[16] => Mux8.IN1
+SWTO[16] => Mux9.IN1
+SWTO[16] => Mux10.IN1
+SWTO[16] => Mux11.IN1
+SWTO[16] => Mux12.IN1
+SWTO[16] => Mux13.IN1
+SWTO[16] => Mux14.IN1
+SWTO[16] => Mux15.IN1
+SWTO[16] => Mux16.IN1
+SWTO[16] => bcd2_7seg:W7.bcd[0]
+SWTO[17] => Mux0.IN2
+SWTO[17] => Mux1.IN0
+SWTO[17] => Mux2.IN0
+SWTO[17] => Mux3.IN0
+SWTO[17] => Mux4.IN0
+SWTO[17] => Mux5.IN0
+SWTO[17] => Mux6.IN0
+SWTO[17] => Mux7.IN0
+SWTO[17] => Mux8.IN0
+SWTO[17] => Mux9.IN0
+SWTO[17] => Mux10.IN0
+SWTO[17] => Mux11.IN0
+SWTO[17] => Mux12.IN0
+SWTO[17] => Mux13.IN0
+SWTO[17] => Mux14.IN0
+SWTO[17] => Mux15.IN0
+SWTO[17] => Mux16.IN0
+SWTO[17] => bcd2_7seg:W7.bcd[1]
+LEDRTO[0] << Mux8.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[1] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[2] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[3] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[4] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[5] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[6] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[7] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO[8] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[0] << Mux16.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[1] << Mux15.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[2] << Mux14.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[3] << Mux13.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[4] << Mux12.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[5] << Mux11.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[6] << Mux10.DB_MAX_OUTPUT_PORT_TYPE
+LEDRTO_temp[7] << Mux9.DB_MAX_OUTPUT_PORT_TYPE
+HEXTO0[0] << bcd2_7seg:W1.seg[0]
+HEXTO0[1] << bcd2_7seg:W1.seg[1]
+HEXTO0[2] << bcd2_7seg:W1.seg[2]
+HEXTO0[3] << bcd2_7seg:W1.seg[3]
+HEXTO0[4] << bcd2_7seg:W1.seg[4]
+HEXTO0[5] << bcd2_7seg:W1.seg[5]
+HEXTO0[6] << bcd2_7seg:W1.seg[6]
+HEXTO1[0] << bcd2_7seg:W2.seg[0]
+HEXTO1[1] << bcd2_7seg:W2.seg[1]
+HEXTO1[2] << bcd2_7seg:W2.seg[2]
+HEXTO1[3] << bcd2_7seg:W2.seg[3]
+HEXTO1[4] << bcd2_7seg:W2.seg[4]
+HEXTO1[5] << bcd2_7seg:W2.seg[5]
+HEXTO1[6] << bcd2_7seg:W2.seg[6]
+HEXTO2[0] << bcd2_7seg:W3.seg[0]
+HEXTO2[1] << bcd2_7seg:W3.seg[1]
+HEXTO2[2] << bcd2_7seg:W3.seg[2]
+HEXTO2[3] << bcd2_7seg:W3.seg[3]
+HEXTO2[4] << bcd2_7seg:W3.seg[4]
+HEXTO2[5] << bcd2_7seg:W3.seg[5]
+HEXTO2[6] << bcd2_7seg:W3.seg[6]
+HEXTO3[0] << bcd2_7seg:W4.seg[0]
+HEXTO3[1] << bcd2_7seg:W4.seg[1]
+HEXTO3[2] << bcd2_7seg:W4.seg[2]
+HEXTO3[3] << bcd2_7seg:W4.seg[3]
+HEXTO3[4] << bcd2_7seg:W4.seg[4]
+HEXTO3[5] << bcd2_7seg:W4.seg[5]
+HEXTO3[6] << bcd2_7seg:W4.seg[6]
+HEXTO4[0] << bcd2_7seg:W5.seg[0]
+HEXTO4[1] << bcd2_7seg:W5.seg[1]
+HEXTO4[2] << bcd2_7seg:W5.seg[2]
+HEXTO4[3] << bcd2_7seg:W5.seg[3]
+HEXTO4[4] << bcd2_7seg:W5.seg[4]
+HEXTO4[5] << bcd2_7seg:W5.seg[5]
+HEXTO4[6] << bcd2_7seg:W5.seg[6]
+HEXTO5[0] << bcd2_7seg:W6.seg[0]
+HEXTO5[1] << bcd2_7seg:W6.seg[1]
+HEXTO5[2] << bcd2_7seg:W6.seg[2]
+HEXTO5[3] << bcd2_7seg:W6.seg[3]
+HEXTO5[4] << bcd2_7seg:W6.seg[4]
+HEXTO5[5] << bcd2_7seg:W6.seg[5]
+HEXTO5[6] << bcd2_7seg:W6.seg[6]
+HEXTO6[0] << bcd2_7seg:W7.seg[0]
+HEXTO6[1] << bcd2_7seg:W7.seg[1]
+HEXTO6[2] << bcd2_7seg:W7.seg[2]
+HEXTO6[3] << bcd2_7seg:W7.seg[3]
+HEXTO6[4] << bcd2_7seg:W7.seg[4]
+HEXTO6[5] << bcd2_7seg:W7.seg[5]
+HEXTO6[6] << bcd2_7seg:W7.seg[6]
+
+
+|alu|addSub:T1
+a[0] => add_1:G0:0:U0.a
+a[1] => add_1:G0:1:U0.a
+a[2] => add_1:G0:2:U0.a
+a[3] => add_1:G0:3:U0.a
+a[4] => add_1:G0:4:U0.a
+a[5] => add_1:G0:5:U0.a
+a[6] => add_1:G0:6:U0.a
+a[7] => add_1:G0:7:U0.a
+b[0] => b_inv[0].IN0
+b[1] => b_inv[1].IN0
+b[2] => b_inv[2].IN0
+b[3] => b_inv[3].IN0
+b[4] => b_inv[4].IN0
+b[5] => b_inv[5].IN0
+b[6] => b_inv[6].IN0
+b[7] => b_inv[7].IN0
+sub => b_inv[7].IN1
+sub => b_inv[6].IN1
+sub => b_inv[5].IN1
+sub => b_inv[4].IN1
+sub => b_inv[3].IN1
+sub => b_inv[2].IN1
+sub => b_inv[1].IN1
+sub => b_inv[0].IN1
+sub => add_1:G0:0:U0.cin
+sum[0] <= add_1:G0:0:U0.sum
+sum[1] <= add_1:G0:1:U0.sum
+sum[2] <= add_1:G0:2:U0.sum
+sum[3] <= add_1:G0:3:U0.sum
+sum[4] <= add_1:G0:4:U0.sum
+sum[5] <= add_1:G0:5:U0.sum
+sum[6] <= add_1:G0:6:U0.sum
+sum[7] <= add_1:G0:7:U0.sum
+cout <= add_1:G0:7:U0.cout
+
+
+|alu|addSub:T1|add_1:\G0:7:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:6:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:5:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:4:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:3:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:2:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:1:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T1|add_1:\G0:0:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2
+a[0] => add_1:G0:0:U0.a
+a[1] => add_1:G0:1:U0.a
+a[2] => add_1:G0:2:U0.a
+a[3] => add_1:G0:3:U0.a
+a[4] => add_1:G0:4:U0.a
+a[5] => add_1:G0:5:U0.a
+a[6] => add_1:G0:6:U0.a
+a[7] => add_1:G0:7:U0.a
+b[0] => b_inv[0].IN0
+b[1] => b_inv[1].IN0
+b[2] => b_inv[2].IN0
+b[3] => b_inv[3].IN0
+b[4] => b_inv[4].IN0
+b[5] => b_inv[5].IN0
+b[6] => b_inv[6].IN0
+b[7] => b_inv[7].IN0
+sub => b_inv[7].IN1
+sub => b_inv[6].IN1
+sub => b_inv[5].IN1
+sub => b_inv[4].IN1
+sub => b_inv[3].IN1
+sub => b_inv[2].IN1
+sub => b_inv[1].IN1
+sub => b_inv[0].IN1
+sub => add_1:G0:0:U0.cin
+sum[0] <= add_1:G0:0:U0.sum
+sum[1] <= add_1:G0:1:U0.sum
+sum[2] <= add_1:G0:2:U0.sum
+sum[3] <= add_1:G0:3:U0.sum
+sum[4] <= add_1:G0:4:U0.sum
+sum[5] <= add_1:G0:5:U0.sum
+sum[6] <= add_1:G0:6:U0.sum
+sum[7] <= add_1:G0:7:U0.sum
+cout <= add_1:G0:7:U0.cout
+
+
+|alu|addSub:T2|add_1:\G0:7:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:6:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:5:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:4:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:3:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:2:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:1:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|addSub:T2|add_1:\G0:0:U0
+a => sum.IN0
+a => cout.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+b => cout.IN0
+cin => sum.IN1
+cin => cout.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W1
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W2
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W3
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W4
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W5
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W6
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|bcd2_7seg:W7
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

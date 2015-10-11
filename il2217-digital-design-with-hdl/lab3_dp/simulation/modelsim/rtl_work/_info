@@ -1,0 +1,265 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/simulation/modelsim
+Ebcd2_7seg
+Z1 w1443474748
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd
+Z5 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd
+l0
+L4
+V7R6kL?Xh8m16Q6i]EQPh10
+!s100 oDFf[jWn7F;<^RG?KA6CA0
+Z6 OV;C;10.3d;59
+31
+Z7 !s110 1443770890
+!i10b 1
+Z8 !s108 1443770890.515517
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd|
+Z10 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Abhv
+R2
+R3
+DEx4 work 9 bcd2_7seg 0 22 7R6kL?Xh8m16Q6i]EQPh10
+l12
+L11
+VQX7DcM;?8BXA^IYze>HKS2
+!s100 2D]_f`m[MhkE>K]?dnDVJ3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecounter_sig
+R1
+Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z14 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R2
+R3
+R0
+Z15 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd
+Z16 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd
+l0
+L12
+Ve<8;VR6A7f6cOG_VEZ38b3
+!s100 RG_ZJ1O5ckR1LZ^c2gK1Q2
+R6
+31
+R7
+!i10b 1
+Z17 !s108 1443770890.108420
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd|
+Z19 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd|
+!i113 1
+R11
+R12
+Aarch_counter_sig
+R13
+R14
+R2
+R3
+Z20 DEx4 work 11 counter_sig 0 22 e<8;VR6A7f6cOG_VEZ38b3
+l23
+L19
+VT7zJ[7Bal5_c05<Db7ChK0
+!s100 ;ZKNekzSIOLg_F>eEQooM2
+R6
+31
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ecounter_sig_10
+R1
+R13
+R14
+R2
+R3
+R0
+Z21 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd
+Z22 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd
+l0
+L12
+V=cBl7M@K@z^jQm6CQ>aJb1
+!s100 6^>XYEg[XgGzdBfC]`J0W1
+R6
+31
+R7
+!i10b 1
+Z23 !s108 1443770890.402375
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd|
+Z25 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd|
+!i113 1
+R11
+R12
+Aarch_counter_sig_10
+R13
+R14
+R2
+R3
+DEx4 work 14 counter_sig_10 0 22 =cBl7M@K@z^jQm6CQ>aJb1
+l23
+L20
+V]cVSKj@e1zcAUOE=b_cD`3
+!s100 emmVUUUNTb1XXl3eAEAO02
+R6
+31
+R7
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Edivider
+Z26 w1443768016
+R13
+R14
+R2
+R3
+R0
+Z27 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd
+Z28 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd
+l0
+L5
+VcR:Scf<Y96?N:=9:]C0e=1
+!s100 ZB6a:=7lPo<1i:4E3o]l^0
+R6
+31
+R7
+!i10b 1
+Z29 !s108 1443770890.167267
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd|
+Z31 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd|
+!i113 1
+R11
+R12
+Aarch_divider
+R13
+R14
+R2
+R3
+DEx4 work 7 divider 0 22 cR:Scf<Y96?N:=9:]C0e=1
+l13
+L11
+VOgPd0h[mzPD6b5c71eP8Z1
+!s100 d>m[4MmaG29;oZJ3ICdFM2
+R6
+31
+R7
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12
+Etest_counter_sig
+Z32 w1443474749
+R13
+R14
+R2
+R3
+R0
+Z33 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd
+Z34 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd
+l0
+L11
+VQ8ha<DGm@]@Y846@4e=Bl2
+!s100 :j^Aa=eeH=MLIMhoWCSl[0
+R6
+31
+Z35 !s110 1443770920
+!i10b 1
+Z36 !s108 1443770920.256798
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd|
+Z38 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd|
+!i113 1
+R11
+R12
+Atb_counter_sig
+R20
+R13
+R14
+R2
+R3
+Z39 DEx4 work 16 test_counter_sig 0 22 Q8ha<DGm@]@Y846@4e=Bl2
+l29
+L13
+Z40 V>i82ES17=0l`AnGjg3M8i1
+Z41 !s100 0ILWS;o79JINCD?FjcIcz1
+R6
+31
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R11
+R12
+Etop_alarm
+R32
+R13
+R14
+R2
+R3
+R0
+Z42 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd
+Z43 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd
+l0
+L5
+V^2ocn5g0Izo6l5AaRz7050
+!s100 Am<V7mK04VcDW85=]2D5<2
+R6
+31
+R7
+!i10b 1
+Z44 !s108 1443770890.250599
+Z45 !s90 -reportprogress|300|-93|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd|
+Z46 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd|
+!i113 1
+R11
+R12
+Abhv_alarm
+R13
+R14
+R2
+R3
+DEx4 work 9 top_alarm 0 22 ^2ocn5g0Izo6l5AaRz7050
+l62
+L17
+VDj>FF5j`MP]c80aUI?kj:1
+!s100 552P68ANdWYC]Ln?4C`L_0
+R6
+31
+R7
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12

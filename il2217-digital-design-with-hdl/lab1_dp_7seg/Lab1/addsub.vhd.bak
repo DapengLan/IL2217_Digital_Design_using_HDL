@@ -1,0 +1,11 @@
+ENTITY addsub IS
+  GENERIC (size: INTEGER);
+    PORT (
+      a: IN bit_vector(size-1 downto 0);
+      b: IN bit_vector(size-1 downto 0);
+      cin:IN bit;
+      sub: IN bit; -- sub = 0 => addition; sub = 1 => sub-
+traktion
+      q:OUT bit_vector(size-1 downto 0);
+      cout:OUT bit);
+END addsub;

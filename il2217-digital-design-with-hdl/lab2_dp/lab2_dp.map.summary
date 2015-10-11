@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Sep 21 23:25:46 2015
+Quartus II Version : 10.0 Build 218 06/27/2010 SJ Full Version
+Revision Name : lab2_dp
+Top-level Entity Name : opc5_bustest
+Family : Cyclone II
+Total logic elements : 48
+    Total combinational functions : 32
+    Dedicated logic registers : 24
+Total registers : 24
+Total pins : 38
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Sep 21 23:25:55 2015
+Quartus II Version : 10.0 Build 218 06/27/2010 SJ Full Version
+Revision Name : lab2_dp
+Top-level Entity Name : opc5_bustest
+Family : Cyclone II
+Device : EP2C35U484C6
+Timing Models : Final
+Total logic elements : 32 / 33,216 ( < 1 % )
+    Total combinational functions : 32 / 33,216 ( < 1 % )
+    Dedicated logic registers : 24 / 33,216 ( < 1 % )
+Total registers : 24
+Total pins : 38 / 322 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 483,840 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

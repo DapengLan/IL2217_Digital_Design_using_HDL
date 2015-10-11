@@ -1,0 +1,42 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use work.opc_pkg.all;
+
+entity tb_opc5 is end tb_opc5;
+
+architecture test of tb_opc5 is
+
+	signal bus_wire : open_collector opc5;
+	--signal a, b : opc5 := 'Z';
+
+	signal clk1, clk2 : std_logic := '0';
+
+BEGIN 
+
+	PROCESS
+	BEGIN
+		FOR i IN opc5 LOOP
+			a <= i;
+			bus_wire <= i;
+			--z <= bus_wire;  
+			WAIT ON clk1 UNTIL clk1='1';
+		END LOOP;
+	END PROCESS;
+
+	PROCESS
+	BEGIN
+		FOR j IN opc5 LOOP
+			b <= j;
+			bus_wire <= j;
+			--z <= bus_wire;
+			WAIT ON clk2 UNTIL clk2='1';
+		END LOOP;
+	END PROCESS;
+
+	z <= bus_wire;
+	
+	clk1<=NOT(clk1) AFTER 10 ns;
+	clk2<=NOT(clk2) AFTER 50 ns;
+
+end example;
+

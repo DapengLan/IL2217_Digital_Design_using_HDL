@@ -1,0 +1,155 @@
+# do lab3_FSM_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_sig
+# -- Compiling architecture Arch_counter_sig of counter_sig
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity divider
+# -- Compiling architecture Arch_divider of divider
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/top_alarm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity top_alarm
+# -- Compiling architecture bhv_alarm of top_alarm
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/counter_sig_10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_sig_10
+# -- Compiling architecture Arch_counter_sig_10 of counter_sig_10
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/bcd2_7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bcd2_7seg
+# -- Compiling architecture bhv of bcd2_7seg
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:10 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity test_counter_sig
+# -- Compiling architecture tb_counter_sig of test_counter_sig
+# -- Loading entity counter_sig
+# End time: 09:28:10 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  couter_sig1
+# vsim -i -l msim_transcript -do "lab3_FSM_run_msim_rtl_vhdl.do" 
+# Start time: 09:28:10 on Oct 02,2015
+# ** Error: (vsim-3170) Could not find '/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/simulation/modelsim/rtl_work.couter_sig1'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab3_FSM_run_msim_rtl_vhdl.do PAUSED at line 16
+vsim work.test_counter_sig(tb_counter_sig)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.test_counter_sig(tb_counter_sig)
+# Loading work.counter_sig(arch_counter_sig)
+vcom -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:34 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity test_counter_sig
+# -- Compiling architecture tb_counter_sig of test_counter_sig
+# -- Loading entity counter_sig
+# End time: 09:28:34 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:40 on Oct 02,2015
+# vcom -reportprogress 300 -93 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab3_dp/tb_counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity test_counter_sig
+# -- Compiling architecture tb_counter_sig of test_counter_sig
+# -- Loading entity counter_sig
+# End time: 09:28:40 on Oct 02,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test_counter_sig
+# vsim 
+# Start time: 09:28:46 on Oct 02,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.test_counter_sig(tb_counter_sig)
+# Loading work.counter_sig(arch_counter_sig)
+add wave -position insertpoint  \
+sim:/test_counter_sig/UP \
+sim:/test_counter_sig/RESET \
+sim:/test_counter_sig/CLK \
+sim:/test_counter_sig/Out1 \
+sim:/test_counter_sig/Out2
+run
+# End time: 09:32:29 on Oct 02,2015, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 0

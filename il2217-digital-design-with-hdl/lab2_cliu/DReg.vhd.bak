@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity DReg is
+	Generic(size : integer := 8);
+	Port ( D : in  bit_vector(size-1 downto 0);
+			 Q : out bit_vector(size-1 downto 0);
+			 clk : in bit;
+			 reset: in bit);
+end DReg;
+    
+architecture behavioral of DReg is
+begin
+	process(clk, D, reset)
+	begin
+		if (reset = '1') then
+			Q <= "00000000";
+		elsif (clk'event and clk = '1') then
+			Q <= D;
+		end if;
+	end process;
+end architecture;

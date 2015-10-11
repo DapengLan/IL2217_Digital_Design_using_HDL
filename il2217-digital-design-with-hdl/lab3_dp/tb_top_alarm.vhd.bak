@@ -1,0 +1,5 @@
+Library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_signed.ALL;
+
+entity test_top_alarm is end test_top_alarm;

@@ -1,0 +1,258 @@
+# do lab3_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/cliu/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/cliu/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_clock_dev.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_clock_dev.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_clock_dev
+# -- Compiling architecture test_clock_dev of tb_clock_dev
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/clock_dev.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/clock_dev.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity clock_dev
+# -- Compiling architecture Arch_clock_dev of clock_dev
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_counter_var.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_counter_var.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_counter_var
+# -- Compiling architecture test_counter_var of tb_counter_var
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/counter_var.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/counter_var.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_var
+# -- Compiling architecture Arch_counter_var of counter_var
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_counter_sig2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_counter_sig2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_counter_sig2
+# -- Compiling architecture test_counter_sig2 of tb_counter_sig2
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/counter_sig.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_sig
+# -- Compiling architecture Arch_counter_sig of counter_sig
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_counter_sig.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_counter_sig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_counter_sig
+# -- Compiling architecture test_counter_sig of tb_counter_sig
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/counter_en.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/counter_en.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_en
+# -- Compiling architecture Arch_counter_en of counter_en
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_counter_en.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_counter_en.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_counter_en
+# -- Compiling architecture test_counter_en of tb_counter_en
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/clock_ctrl.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/clock_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity clock_ctrl
+# -- Compiling architecture controller of clock_ctrl
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_alarm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_alarm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_alarm
+# -- Compiling architecture test_alarm of tb_alarm
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/alarm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/alarm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity alarm
+# -- Compiling architecture test_alarm of alarm
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/cliu/workspace/Lab3/counter_sig2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/counter_sig2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity counter_sig2
+# -- Compiling architecture Arch_counter_sig2 of counter_sig2
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/cliu/workspace/Lab3/tb_alarm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:09:14 on Sep 25,2015
+# vcom -reportprogress 300 -93 -work work /home/cliu/workspace/Lab3/tb_alarm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity tb_alarm
+# -- Compiling architecture test_alarm of tb_alarm
+# End time: 02:09:14 on Sep 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  clock_ctrl
+# vsim -i -l msim_transcript -do "lab3_run_msim_rtl_vhdl.do" 
+# Start time: 02:09:14 on Sep 25,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.clock_ctrl(controller)
+# 
+# add wave *
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: cliu-ubuntu  ProcessID: 930
+#           Attempting to use alternate WLF file "./wlftCxOLf3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftCxOLf3
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /clock_ctrl
+# 
+# stdin: <EOF>
+vsim work.tb_alarm
+# vsim 
+# Start time: 02:09:27 on Sep 25,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_alarm(test_alarm)
+# Loading work.alarm(test_alarm)
+# Loading work.clock_dev(arch_clock_dev)
+# Loading work.counter_en(arch_counter_en)
+add wave -position end  sim:/tb_alarm/UP
+add wave -position end  sim:/tb_alarm/RESET
+add wave -position end  sim:/tb_alarm/CLK
+add wave -position end  sim:/tb_alarm/out0
+add wave -position end  sim:/tb_alarm/out1
+add wave -position end  sim:/tb_alarm/ref
+add wave -position end  sim:/tb_alarm/reseta
+add wave -position end  sim:/tb_alarm/resetb
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: cliu-ubuntu  ProcessID: 930
+#           Attempting to use alternate WLF file "./wlftLIDULm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftLIDULm
+run
+# End time: 02:10:52 on Sep 25,2015, Elapsed time: 0:01:25
+# Errors: 4, Warnings: 2

@@ -1,0 +1,565 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/cliu/workspace/Lab3/simulation/modelsim
+Ealarm
+Z1 w1443139503
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/home/cliu/workspace/Lab3/alarm.vhd
+Z7 F/home/cliu/workspace/Lab3/alarm.vhd
+l0
+L6
+Vajb^>Ed94TCO^=C]`a1dj2
+!s100 HTifb:4cLW^IMU<I_V`[a2
+Z8 OV;C;10.3d;59
+31
+Z9 !s110 1443139754
+!i10b 1
+Z10 !s108 1443139754.917401
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/alarm.vhd|
+Z12 !s107 /home/cliu/workspace/Lab3/alarm.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1
+Atest_alarm
+R2
+R3
+R4
+R5
+DEx4 work 5 alarm 0 22 ajb^>Ed94TCO^=C]`a1dj2
+l57
+L15
+V3GO9c4ZQ3]JYfJLcIU@3z0
+!s100 5]jBVg`e?C[<V>ENYR2m^0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclock_ctrl
+Z15 w1443110691
+R2
+R3
+R4
+R5
+R0
+Z16 8/home/cliu/workspace/Lab3/clock_ctrl.vhd
+Z17 F/home/cliu/workspace/Lab3/clock_ctrl.vhd
+l0
+L6
+V]EE:`MEXJdIj1J;Vg0S=S2
+!s100 3McLNa<KOz=KBdB6Vjf>b1
+R8
+31
+R9
+!i10b 1
+Z18 !s108 1443139754.854621
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/clock_ctrl.vhd|
+Z20 !s107 /home/cliu/workspace/Lab3/clock_ctrl.vhd|
+!i113 1
+R13
+R14
+Acontroller
+R2
+R3
+R4
+R5
+DEx4 work 10 clock_ctrl 0 22 ]EE:`MEXJdIj1J;Vg0S=S2
+l15
+L14
+VO?@7cSZa^E8<cSNgCXzh01
+!s100 akBo3VLRH@:^fzY@oHnVF3
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Eclock_dev
+Z21 w1443139462
+R2
+R3
+R4
+R5
+R0
+Z22 8/home/cliu/workspace/Lab3/clock_dev.vhd
+Z23 F/home/cliu/workspace/Lab3/clock_dev.vhd
+l0
+L9
+VPcS_<5bBT]YPlQVR8l]Yh2
+!s100 L?KaH^eHWVMQIBSRGIHiI0
+R8
+31
+R9
+!i10b 1
+Z24 !s108 1443139754.595649
+Z25 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/clock_dev.vhd|
+Z26 !s107 /home/cliu/workspace/Lab3/clock_dev.vhd|
+!i113 1
+R13
+R14
+Aarch_clock_dev
+R2
+R3
+R4
+R5
+DEx4 work 9 clock_dev 0 22 PcS_<5bBT]YPlQVR8l]Yh2
+l17
+L16
+V:5;?21cnif:IzBmdjM]>h2
+!s100 fi?<@e`C`o3=5<>5D>Cn^1
+R8
+31
+R9
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Ecounter_en
+Z27 w1443138236
+R2
+R3
+R4
+R5
+R0
+Z28 8/home/cliu/workspace/Lab3/counter_en.vhd
+Z29 F/home/cliu/workspace/Lab3/counter_en.vhd
+l0
+L10
+VnlDL_GJQm3Rnf6Ta8O>W:1
+!s100 3Ia;DN:jDEYlCo_O>o4OM2
+R8
+31
+R9
+!i10b 1
+Z30 !s108 1443139754.791006
+Z31 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/counter_en.vhd|
+Z32 !s107 /home/cliu/workspace/Lab3/counter_en.vhd|
+!i113 1
+R13
+R14
+Aarch_counter_en
+R2
+R3
+R4
+R5
+DEx4 work 10 counter_en 0 22 nlDL_GJQm3Rnf6Ta8O>W:1
+l20
+L19
+VLhJTO7=238Nn[DZJ^F7e=2
+!s100 dRlVZLONC44Y?cZck_ge_2
+R8
+31
+R9
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Ecounter_sig
+Z33 w1442959587
+R2
+R3
+R4
+R5
+R0
+Z34 8/home/cliu/workspace/Lab3/counter_sig.vhd
+Z35 F/home/cliu/workspace/Lab3/counter_sig.vhd
+l0
+L13
+V1^6b<8XMRCWdR6>>k:=[d3
+!s100 ebb>=D]0ZdER;4_Hzb8YF3
+R8
+31
+R9
+!i10b 1
+Z36 !s108 1443139754.722500
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/counter_sig.vhd|
+Z38 !s107 /home/cliu/workspace/Lab3/counter_sig.vhd|
+!i113 1
+R13
+R14
+Aarch_counter_sig
+R2
+R3
+R4
+R5
+DEx4 work 11 counter_sig 0 22 1^6b<8XMRCWdR6>>k:=[d3
+l22
+L20
+V<k@lHIeK^kb9Eig<j0Hhz3
+!s100 ha@OMgXB4J^b]iD;W;g_R1
+R8
+31
+R9
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Ecounter_sig2
+Z39 w1442959573
+R2
+R3
+R4
+R5
+R0
+Z40 8/home/cliu/workspace/Lab3/counter_sig2.vhd
+Z41 F/home/cliu/workspace/Lab3/counter_sig2.vhd
+l0
+L11
+V^_V5Sl<LC0NJ=]aJ`DJAF0
+!s100 PdHI0JS?_ZA?=h:DJW@ca2
+R8
+31
+R9
+!i10b 1
+Z42 !s108 1443139754.949510
+Z43 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/counter_sig2.vhd|
+Z44 !s107 /home/cliu/workspace/Lab3/counter_sig2.vhd|
+!i113 1
+R13
+R14
+Aarch_counter_sig2
+R2
+R3
+R4
+R5
+DEx4 work 12 counter_sig2 0 22 ^_V5Sl<LC0NJ=]aJ`DJAF0
+l20
+L18
+VHILDLWdCeG0AnBSi;@lm;1
+!s100 ASa4:TRUn2@<C4jza61@[1
+R8
+31
+R9
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R13
+R14
+Ecounter_var
+Z45 w1442963667
+R2
+R3
+R4
+R5
+R0
+Z46 8/home/cliu/workspace/Lab3/counter_var.vhd
+Z47 F/home/cliu/workspace/Lab3/counter_var.vhd
+l0
+L9
+VAWdKmAEok>@bE90Db`Ncl3
+!s100 >gAF0=00zeP>1E[Ka@RNA1
+R8
+31
+R9
+!i10b 1
+Z48 !s108 1443139754.659306
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/counter_var.vhd|
+Z50 !s107 /home/cliu/workspace/Lab3/counter_var.vhd|
+!i113 1
+R13
+R14
+Aarch_counter_var
+R2
+R3
+R4
+R5
+DEx4 work 11 counter_var 0 22 AWdKmAEok>@bE90Db`Ncl3
+l17
+L16
+V2D892k15WcFL_1@AZ4K:N3
+!s100 ?IMPG8j3ldeS=UlH;B_Mc1
+R8
+31
+R9
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R13
+R14
+Etb_alarm
+Z51 w1443139700
+R2
+R3
+R4
+R5
+R0
+Z52 8/home/cliu/workspace/Lab3/tb_alarm.vhd
+Z53 F/home/cliu/workspace/Lab3/tb_alarm.vhd
+l0
+L6
+VlXI@jQ;z3O?7ibLIfSUa90
+!s100 aJK?c4E]0caRAW[gNecbj2
+R8
+31
+R9
+!i10b 1
+Z54 !s108 1443139754.981815
+Z55 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_alarm.vhd|
+Z56 !s107 /home/cliu/workspace/Lab3/tb_alarm.vhd|
+!i113 1
+R13
+R14
+Atest_alarm
+R2
+R3
+R4
+R5
+Z57 DEx4 work 8 tb_alarm 0 22 lXI@jQ;z3O?7ibLIfSUa90
+l28
+L9
+Z58 Vi4RZR:KiWNZfWHdGe[FMh2
+Z59 !s100 H3NgcHDT;^??SYbC:CT>c1
+R8
+31
+R9
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R13
+R14
+Etb_clock_dev
+Z60 w1443101665
+R4
+R5
+R0
+Z61 8/home/cliu/workspace/Lab3/tb_clock_dev.vhd
+Z62 F/home/cliu/workspace/Lab3/tb_clock_dev.vhd
+l0
+L4
+V?gRkIi_g3Q[cEgJ5:;89J3
+!s100 cek:dcb=_EIOW[e[n5CGm0
+R8
+31
+R9
+!i10b 1
+Z63 !s108 1443139754.566599
+Z64 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_clock_dev.vhd|
+Z65 !s107 /home/cliu/workspace/Lab3/tb_clock_dev.vhd|
+!i113 1
+R13
+R14
+Atest_clock_dev
+R4
+R5
+DEx4 work 12 tb_clock_dev 0 22 ?gRkIi_g3Q[cEgJ5:;89J3
+l21
+L7
+VLFe8_fV=`lkUYN]J8FK[31
+!s100 7nXYJBO15c06`g]Fa^Hg01
+R8
+31
+R9
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R13
+R14
+Etb_counter_en
+Z66 w1443100795
+R2
+R3
+R4
+R5
+R0
+Z67 8/home/cliu/workspace/Lab3/tb_counter_en.vhd
+Z68 F/home/cliu/workspace/Lab3/tb_counter_en.vhd
+l0
+L12
+VEnbD<;nA2YQXk4jo@QkJz2
+!s100 Ee4RPZ2aU=hjeB1:4CoD=1
+R8
+31
+R9
+!i10b 1
+Z69 !s108 1443139754.822755
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_counter_en.vhd|
+Z71 !s107 /home/cliu/workspace/Lab3/tb_counter_en.vhd|
+!i113 1
+R13
+R14
+Atest_counter_en
+R2
+R3
+R4
+R5
+DEx4 work 13 tb_counter_en 0 22 EnbD<;nA2YQXk4jo@QkJz2
+l29
+L14
+V]CDGb];ZOdkW0SXWzK<3Z1
+!s100 49;dY^^eJ?c]XoS`G6OlX3
+R8
+31
+R9
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R13
+R14
+Etb_counter_sig
+Z72 w1442962013
+R2
+R3
+R4
+R5
+R0
+Z73 8/home/cliu/workspace/Lab3/tb_counter_sig.vhd
+Z74 F/home/cliu/workspace/Lab3/tb_counter_sig.vhd
+l0
+L12
+VL5gSKVa3`hTcPZCUP?EfS0
+!s100 z;I^NmMRK7NdcX@OKUc502
+R8
+31
+R9
+!i10b 1
+Z75 !s108 1443139754.755323
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_counter_sig.vhd|
+Z77 !s107 /home/cliu/workspace/Lab3/tb_counter_sig.vhd|
+!i113 1
+R13
+R14
+Atest_counter_sig
+R2
+R3
+R4
+R5
+DEx4 work 14 tb_counter_sig 0 22 L5gSKVa3`hTcPZCUP?EfS0
+l27
+L14
+V3PCNZz0=mno:UZeUi]87^1
+!s100 hoGZEFB]M;b?jUR95?Z?c3
+R8
+31
+R9
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R13
+R14
+Etb_counter_sig2
+Z78 w1442961997
+R2
+R3
+R4
+R5
+R0
+Z79 8/home/cliu/workspace/Lab3/tb_counter_sig2.vhd
+Z80 F/home/cliu/workspace/Lab3/tb_counter_sig2.vhd
+l0
+L12
+VV7EoFiciY]ilH@>Qn8MXa2
+!s100 KJ[TUN[@EN2>KF7e;78zW0
+R8
+31
+R9
+!i10b 1
+Z81 !s108 1443139754.691121
+Z82 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_counter_sig2.vhd|
+Z83 !s107 /home/cliu/workspace/Lab3/tb_counter_sig2.vhd|
+!i113 1
+R13
+R14
+Atest_counter_sig2
+R2
+R3
+R4
+R5
+DEx4 work 15 tb_counter_sig2 0 22 V7EoFiciY]ilH@>Qn8MXa2
+l27
+L14
+VH=D0Vb:3c6_5LW@:NZmO52
+!s100 E_E>>`IgXQ`O0`Dz^YU;j0
+R8
+31
+R9
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R13
+R14
+Etb_counter_var
+Z84 w1442963613
+R2
+R3
+R4
+R5
+R0
+Z85 8/home/cliu/workspace/Lab3/tb_counter_var.vhd
+Z86 F/home/cliu/workspace/Lab3/tb_counter_var.vhd
+l0
+L12
+VbAzJmCUI;j_Y<V3]HKTDY3
+!s100 2V7n02iKzlS2:f7Y09EHC2
+R8
+31
+R9
+!i10b 1
+Z87 !s108 1443139754.627326
+Z88 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/Lab3/tb_counter_var.vhd|
+Z89 !s107 /home/cliu/workspace/Lab3/tb_counter_var.vhd|
+!i113 1
+R13
+R14
+Atest_counter_var
+R2
+R3
+R4
+R5
+DEx4 work 14 tb_counter_var 0 22 bAzJmCUI;j_Y<V3]HKTDY3
+l27
+L14
+VAURAmGZmOimIW9O^cegdi3
+!s100 Lzhi`5D;:J8I45KX:`iYJ0
+R8
+31
+R9
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R13
+R14

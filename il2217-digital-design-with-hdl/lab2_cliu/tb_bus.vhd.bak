@@ -1,0 +1,14 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+
+entity tb_bus is end tb_bus;
+
+
+ARCHITECTURE test OF tb_bus IS
+
+
+
+
+
+
+END test;

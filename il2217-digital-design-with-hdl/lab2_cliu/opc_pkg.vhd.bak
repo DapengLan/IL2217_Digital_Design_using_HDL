@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+
+	function open_collector ( s : opc5_vector ) return opc5 is
+		variable result : opc5 := 'Z';  -- weakest state default
+	begin
+		-- the test for a single driver is essential otherwise the
+		-- loop would return 'X' for a single driver of '-' and that
+		-- would conflict with the value of a single driver unresolved
+		-- signal.
+		if (s'length = 1) then
+			return s(s'low);
+		else
+			for i in s'range loop
+				result := resolution_tab(result, s(i));
+			end loop;
+		end if;
+		return result;
+	end open_collector;

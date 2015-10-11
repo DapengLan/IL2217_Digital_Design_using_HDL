@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/simulation/modelsim
+Edflipflop
+Z1 w1442518886
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/Dflipflop.vhd
+Z4 F/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/Dflipflop.vhd
+l0
+L3
+V6RfEgFnaI59_Q04Xc?gi70
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work_rising -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 blnCR];jm`BA[Pzg0eCS22
+Abehavioural
+R2
+DEx4 work 9 dflipflop 0 22 6RfEgFnaI59_Q04Xc?gi70
+l11
+L10
+V21n:lgMcRj4H78Y=P9X6>3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 XmcD?@ZROIJY5]Xi:cl_e2
+Edlatch2
+Z9 w1442518891
+R2
+Z10 8/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/DLatch2.vhd
+Z11 F/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/DLatch2.vhd
+l0
+L3
+V;B8H;bOV7oM5ZE__Q52eG3
+R5
+32
+R6
+R7
+!s100 9ZeNOQ^X?YiKfeZ42T<b_1
+Abehavioural
+R2
+DEx4 work 7 dlatch2 0 22 ;B8H;bOV7oM5ZE__Q52eG3
+l11
+L10
+V2]Lj?>Vf7<]3I^Obl8X;51
+R5
+32
+R8
+R6
+R7
+!s100 J@@f`dBYUTGH02?3fASn:3
+Eteststd_logic
+Z12 w1442504076
+R2
+Z13 8/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dstd_logic.vhd
+Z14 F/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dstd_logic.vhd
+l0
+L5
+VaGPVbVHI9mX?[UQ4jAe@f2
+!s100 17hQL^aj32WzXo6@X:9QU2
+R5
+32
+R6
+R7
+Atb_std_logic
+R2
+DEx4 work 13 teststd_logic 0 22 aGPVbVHI9mX?[UQ4jAe@f2
+l25
+L8
+VD>XX`YlkA3g2_kYmP7Cb@2
+!s100 DmYGR7T6MIPkH0XVc;0`?0
+R5
+32
+R8
+R6
+R7

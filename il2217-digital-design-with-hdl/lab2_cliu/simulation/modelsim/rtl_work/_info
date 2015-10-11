@@ -1,0 +1,190 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/cliu/workspace/lab2/simulation/modelsim
+Edreg
+Z1 w1442825081
+Z2 DPx4 work 7 opc_pkg 0 22 hQJf?_[NB[1KF58Ie00PX3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8/home/cliu/workspace/lab2/DReg.vhd
+Z8 F/home/cliu/workspace/lab2/DReg.vhd
+l0
+L6
+V<cV=^T1?]6=aW_nLJ]Jl80
+!s100 D]0HiEf[MA>de`]i;`[co2
+Z9 OV;C;10.3d;59
+31
+Z10 !s110 1442828155
+!i10b 1
+Z11 !s108 1442828155.135522
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/lab2/DReg.vhd|
+Z13 !s107 /home/cliu/workspace/lab2/DReg.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 4 dreg 0 22 <cV=^T1?]6=aW_nLJ]Jl80
+l15
+L14
+VzHXiaPYG@IIbPT4E1[D@11
+!s100 a]zA84YO?=5SFY5UVj8g=1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Popc_pkg
+R3
+R4
+R5
+R6
+Z16 w1442602802
+R0
+Z17 8/home/cliu/workspace/lab2/opc_pkg.vhd
+Z18 F/home/cliu/workspace/lab2/opc_pkg.vhd
+l0
+L5
+VhQJf?_[NB[1KF58Ie00PX3
+!s100 eX6m3FI<bBQPPR=GaaO<]2
+R9
+31
+b1
+R10
+!i10b 1
+Z19 !s108 1442828155.069402
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/lab2/opc_pkg.vhd|
+Z21 !s107 /home/cliu/workspace/lab2/opc_pkg.vhd|
+!i113 1
+R14
+R15
+Bbody
+R2
+R3
+R4
+R5
+R6
+l0
+L57
+V2FRbccLKP?g^l1h0ZS72M3
+!s100 f[M^g>a`ILVQ4TD1?6JSa1
+R9
+31
+R10
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R14
+R15
+nbody
+Eres_bus
+Z22 w1442828022
+R3
+R4
+R2
+R5
+R6
+R0
+Z23 8/home/cliu/workspace/lab2/res_bus.vhd
+Z24 F/home/cliu/workspace/lab2/res_bus.vhd
+l0
+L5
+VUI>3IXW:5Y<S0IPL^[:am2
+!s100 DTLKTc]Za`OnO2=nJkSCW2
+R9
+31
+R10
+!i10b 1
+Z25 !s108 1442828155.102400
+Z26 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/lab2/res_bus.vhd|
+Z27 !s107 /home/cliu/workspace/lab2/res_bus.vhd|
+!i113 1
+R14
+R15
+Atest
+R3
+R4
+R2
+R5
+R6
+DEx4 work 7 res_bus 0 22 UI>3IXW:5Y<S0IPL^[:am2
+l32
+L17
+VBTF0VAP6R<6SYg2TS1UQo3
+!s100 oSO?<W2K]Q[g3@4`9<Q=Y0
+R9
+31
+R10
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R14
+R15
+Etb_bus
+Z28 w1442827796
+R3
+R4
+R2
+R5
+R6
+R0
+Z29 8/home/cliu/workspace/lab2/tb_bus.vhd
+Z30 F/home/cliu/workspace/lab2/tb_bus.vhd
+l0
+L5
+VeUBS^k<h^Pfz=L<8k?an?0
+!s100 `]C>3khdNF40KaV^401eN2
+R9
+31
+R10
+!i10b 1
+Z31 !s108 1442828155.168531
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/cliu/workspace/lab2/tb_bus.vhd|
+Z33 !s107 /home/cliu/workspace/lab2/tb_bus.vhd|
+!i113 1
+R14
+R15
+Atest
+R3
+R4
+R2
+R5
+R6
+DEx4 work 6 tb_bus 0 22 eUBS^k<h^Pfz=L<8k?an?0
+l26
+L7
+VhG1@;:0NOZ0Dk5QB=JZSU1
+!s100 ]6F]h`D8Ion8aeiFcfX0g3
+R9
+31
+R10
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R14
+R15

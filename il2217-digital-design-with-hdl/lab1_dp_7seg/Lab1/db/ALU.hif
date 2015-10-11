@@ -1,0 +1,210 @@
+Quartus II
+Version 10.0 Build 218 06/27/2010 SJ Full Version
+12
+4402
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+nandgate
+# storage
+db|ALU.(1).cnf
+db|ALU.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|home|il2206|Documents|workspace|VHDL|nandgate|nandgate.vhd
+d748893c91e54a96149a6e2fe422657
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|opt|altera|10.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+mux
+# storage
+db|ALU.(2).cnf
+db|ALU.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux.vhd
+e0f812ac251d53b727c6e0b568e5090
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|opt|altera|10.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+addsub
+# storage
+db|ALU.(0).cnf
+db|ALU.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub.vhd
+df88d566073d8a8ec432243ad6993
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+size
+8
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+addSub:T1
+addSub:T2
+}
+# lmf
+|opt|altera|10.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+add_1
+# storage
+db|ALU.(3).cnf
+db|ALU.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+add_1.vhd
+39af1c4869d09bfa15e6cbd526aff8db
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+addSub:T1|add_1:\G0:7:U0
+addSub:T1|add_1:\G0:6:U0
+addSub:T1|add_1:\G0:5:U0
+addSub:T1|add_1:\G0:4:U0
+addSub:T1|add_1:\G0:3:U0
+addSub:T1|add_1:\G0:2:U0
+addSub:T1|add_1:\G0:1:U0
+addSub:T1|add_1:\G0:0:U0
+addSub:T2|add_1:\G0:7:U0
+addSub:T2|add_1:\G0:6:U0
+addSub:T2|add_1:\G0:5:U0
+addSub:T2|add_1:\G0:4:U0
+addSub:T2|add_1:\G0:3:U0
+addSub:T2|add_1:\G0:2:U0
+addSub:T2|add_1:\G0:1:U0
+addSub:T2|add_1:\G0:0:U0
+}
+# lmf
+|opt|altera|10.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+alu
+# storage
+db|ALU.(4).cnf
+db|ALU.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+alu.vhd
+5c29df67de71d311715f7ca7d3745d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+size
+8
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+|
+}
+# lmf
+|opt|altera|10.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+

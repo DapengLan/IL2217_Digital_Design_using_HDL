@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+
+entity test_dreg is end test_dreg;
+
+ARCHITECTURE tb_DReg OF test_dreg IS
+  COMPONENT DReg
+	Generic(size : integer);
+	Port ( D : in  bit_vector(size-1 downto 0);
+			 Q : out bit_vector(size-1 downto 0);
+			 clk : in bit;
+			 reset: in bit);
+  END COMPONENT;
+  constant width : INTEGER := 4;
+  signal in1, out1 : bit_vector (width-1 downto 0) := "0000";
+  signal clk, clear : bit := '0';
+BEGIN
+  in1 <= "00000000",
+         "00000010" AFTER 15 ns,
+         "00000100" AFTER 50 ns,
+         "00010000" AFTER 70 ns,
+         "00100000" AFTER 75 ns,
+         "01000000" AFTER 125 ns;
+U1:DReg GENERIC MAP (width) PORT MAP(in1, out1, clk, clear);
+  clk<='0',
+       '1' AFTER 20 NS,
+       '0' AFTER 40 NS,
+       '1' AFTER 60 ns,
+       '0' AFTER 80 ns,
+       '1' AFTER 100 ns,
+       '0' AFTER 120 ns;
+  clear <= '1' AFTER 110 ns;
+  -- This assignment can also be used but then you cannot type
+  -- run -all in the simulation
+  -- clk <= not(clk) after 20 ns;
+END tb_DReg;

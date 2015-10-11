@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/il2206/Documents/workspace/VHDL/lab1/simulation/modelsim
+Eadd_1
+Z1 w1441985367
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8/home/il2206/Documents/workspace/VHDL/lab1/add_1.vhd
+Z4 F/home/il2206/Documents/workspace/VHDL/lab1/add_1.vhd
+l0
+L5
+Vj5SdaaFZNNE>Zi?cP3Lo52
+Z5 OV;C;6.5e;42
+33
+Z6 o-2008 -work work -O0
+Z7 tExplicit 1
+!s100 EOhHBST[I@=m=:=agnYAl3
+Artl
+R2
+DEx4 work 5 add_1 0 22 j5SdaaFZNNE>Zi?cP3Lo52
+l11
+L10
+V7<hH1ZU8jLNGAfh<L^A?H0
+R5
+33
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 4GgVL1_A0l;aYi3o1E^2S0
+Eaddsub
+Z9 w1441983879
+R2
+Z10 8/home/il2206/Documents/workspace/VHDL/lab1/addsub.vhd
+Z11 F/home/il2206/Documents/workspace/VHDL/lab1/addsub.vhd
+l0
+L3
+V_@gz5a@]Hg8WE8iJXhbjF0
+R5
+33
+R6
+R7
+!s100 [coCWMF]J@P8l9`Y[?fOm2
+Astructural
+R2
+DEx4 work 6 addsub 0 22 _@gz5a@]Hg8WE8iJXhbjF0
+l24
+L15
+VMm855=I=C_;2g:KN0CDRd2
+R5
+33
+R8
+R6
+R7
+!s100 BjZTl2^EkDj=9LJgYO[fR2
+Ealu
+Z12 w1442180424
+Z13 8/home/il2206/Documents/workspace/VHDL/lab1/alu.vhd
+Z14 F/home/il2206/Documents/workspace/VHDL/lab1/alu.vhd
+l0
+L1
+V30_o_QaeES<oR:Fc3[fLa1
+R5
+33
+R6
+R7
+!s100 Jb2[@[:9aH8aFR>P0804R1
+Astructural
+DEx4 work 3 alu 0 22 30_o_QaeES<oR:Fc3[fLa1
+l40
+L11
+VOZ2Q<<Pigkh7AHH=EzcYm1
+R5
+33
+R6
+R7
+!s100 `R?K8n0Z30N]Sg3zkULV12
+Etb_alu
+Z15 w1442165386
+Z16 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R2
+Z17 8/home/il2206/Documents/workspace/VHDL/lab1/tb_ALU.vhd
+Z18 F/home/il2206/Documents/workspace/VHDL/lab1/tb_ALU.vhd
+l0
+L9
+VmZ`?@DjVAQakYzPf5=kVi2
+!s100 Z7I^TDgEWSbGk]>14Y<N]1
+R5
+33
+R6
+R7
+Aalutest
+R16
+R2
+DEx4 work 6 tb_alu 0 22 mZ`?@DjVAQakYzPf5=kVi2
+l57
+L11
+VQjzZkCaYOlLcb3mkAW`@c3
+!s100 aGCTA5[7m_gC83;04XNC81
+R5
+33
+Z19 Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R6
+R7

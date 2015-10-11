@@ -1,0 +1,82 @@
+# do ALU_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/altera/10.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/10.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -2008 -work work {/home/il2206/Documents/workspace/VHDL/lab1/add_1.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity add_1
+# -- Compiling architecture rtl of add_1
+# vcom -2008 -work work {/home/il2206/Documents/workspace/VHDL/lab1/addsub.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# vcom -2008 -work work {/home/il2206/Documents/workspace/VHDL/lab1/alu.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Compiling entity alu
+# -- Compiling architecture structural of alu
+# 
+# vcom -2008 -work work {/home/il2206/Documents/workspace/VHDL/lab1/tb_ALU.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_alu
+# -- Compiling architecture alutest of tb_alu
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs="+acc" alu
+# vsim -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps alu 
+# //  ModelSim ALTERA 6.5e Feb 27 2010 Linux 2.6.32-24-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading work.alu(structural)
+# Loading ieee.std_logic_1164(body)
+# Loading work.addsub(structural)
+# Loading work.add_1(rtl)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: il2206  Hostname: vm  ProcessID: 3819
+#           Attempting to use alternate WLF file "./wlftK2zDcJ".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftK2zDcJ
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+vsim work.tb_alu
+# vsim work.tb_alu 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(alutest)
+# Loading work.alu(structural)
+# Loading work.addsub(structural)
+# Loading work.add_1(rtl)
+add wave sim:/tb_alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: il2206  Hostname: vm  ProcessID: 3819
+#           Attempting to use alternate WLF file "./wlftiOEaVe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftiOEaVe
+run

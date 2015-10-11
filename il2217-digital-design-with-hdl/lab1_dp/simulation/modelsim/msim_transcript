@@ -1,0 +1,98 @@
+# do ALU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/parallels/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/parallels/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -2008 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/add_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:58:50 on Sep 29,2015
+# vcom -reportprogress 300 -2008 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/add_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add_1
+# -- Compiling architecture rtl of add_1
+# End time: 21:58:50 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/addsub.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:58:50 on Sep 29,2015
+# vcom -reportprogress 300 -2008 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addSub
+# -- Compiling architecture structural of addSub
+# End time: 21:58:50 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/alu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:58:51 on Sep 29,2015
+# vcom -reportprogress 300 -2008 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/alu.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity alu
+# -- Compiling architecture structural of alu
+# End time: 21:58:51 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/tb_ALU.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:58:51 on Sep 29,2015
+# vcom -reportprogress 300 -2008 -work work /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp/tb_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU
+# -- Compiling architecture ALUTest of tb_ALU
+# End time: 21:58:51 on Sep 29,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  alu
+# vsim -i -l msim_transcript -do "ALU_run_msim_rtl_vhdl.do" 
+# Start time: 21:58:51 on Sep 29,2015
+# Loading std.standard
+# Loading work.alu(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.addsub(structural)
+# Loading work.add_1(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# stdin: <EOF>
+vsim work.tb_alu
+# vsim 
+# Start time: 21:58:57 on Sep 29,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(alutest)
+# Loading work.alu(structural)
+# Loading work.addsub(structural)
+# Loading work.add_1(rtl)
+add wave -position insertpoint  \
+sim:/tb_alu/a \
+sim:/tb_alu/b \
+sim:/tb_alu/q \
+sim:/tb_alu/ctrl \
+sim:/tb_alu/cout \
+sim:/tb_alu/width
+run
+run
+# End time: 21:59:41 on Sep 29,2015, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0

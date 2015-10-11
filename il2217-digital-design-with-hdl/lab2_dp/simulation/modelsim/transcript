@@ -1,0 +1,22 @@
+# Compile of opc5_pack.vhd was successful.
+# Compile of tb_opc5.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work4.test_opc
+# vsim -voptargs=+acc work4.test_opc 
+# //  ModelSim ALTERA 6.5e Feb 27 2010 Linux 2.6.32-24-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading work4.opc5_pack(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work4.test_opc(arch)
+add wave sim:/test_opc/*
+run
+run

@@ -1,0 +1,16 @@
+entity tb_add_1 is 
+end tb_add_1;
+
+architecture testadd_1 of tb_add_1 is 
+	component add_1
+		port (a,b,cin:in std_logic;
+			cout,sum:out std_logic);
+	end component;
+
+	signal testvector:bit_vector(2 downto 0);
+	signal sgcout,sgsum:bit;
+	
+begin(
+	c1:add_1 port map (a => testvector(1), b => testvector(2), cin => testvector(3),
+					cout => sgcout, sum => sgsum);
+					

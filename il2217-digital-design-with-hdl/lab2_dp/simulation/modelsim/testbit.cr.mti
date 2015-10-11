@@ -1,0 +1,19 @@
+/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dbit.vhd {1 {vcom -work work -2002 -explicit /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dbit.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Compiling entity testdbit
+-- Compiling architecture tb_dbit of testdbit
+
+} {} {}} /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/Dflipflop_bit.vhd {1 {vcom -work work -2002 -explicit /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/Dflipflop_bit.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Compiling entity dflipflop_bit
+-- Compiling architecture behavioural of dflipflop_bit
+
+} {} {}} /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/DLatch2_bit.vhd {1 {vcom -work work -2002 -explicit /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/DLatch2_bit.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Compiling entity dlatch2_bit
+-- Compiling architecture behavioural of dlatch2_bit
+
+} {} {}}

@@ -1,0 +1,8 @@
+/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dstd_logic.vhd {1 {vcom -work work3 -2002 -explicit /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/test_Dstd_logic.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity teststd_logic
+-- Compiling architecture tb_std_logic of teststd_logic
+
+} {} {}}

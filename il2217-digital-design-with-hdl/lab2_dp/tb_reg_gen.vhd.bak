@@ -1,0 +1,8 @@
+entity reg_gen is 
+	generic (n: integer:=8);
+	port (
+	d:in bit_vector(n-1 downto 0);
+	q:out bit_vector(n-1 downto 0);
+	clk,clear:in bit
+	);
+end entity;

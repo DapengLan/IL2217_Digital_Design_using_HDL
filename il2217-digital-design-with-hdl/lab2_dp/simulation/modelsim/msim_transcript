@@ -1,0 +1,31 @@
+# do lab2_dp_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/altera/10.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/10.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/DLatch2_bit.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Compiling entity dlatch2_bit
+# -- Compiling architecture behavioural of dlatch2_bit
+# 
+# vcom -93 -work work {/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/tb_opc5.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# ** Error: (vcom-11) Could not find work.opc5_pack.
+# ** Error: /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/tb_opc5.vhd(1): (vcom-1195) Cannot find expanded name "work.opc5_pack".
+# ** Error: /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/tb_opc5.vhd(1): Unknown expanded name.
+# -- Loading package std_logic_1164
+# ** Error: /home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/tb_opc5.vhd(6): VHDL Compiler exiting
+# ** Error: /opt/altera/10.0/modelsim_ae/linuxaloem/vcom failed.
+# Error in macro ./lab2_dp_run_msim_rtl_vhdl.do line 10
+# /opt/altera/10.0/modelsim_ae/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/il2206/Documents/vhdl_lc/il2217-digital-design-using-hdl/lab2_dp/tb_opc5.vhd}"
+# Loading project testopc

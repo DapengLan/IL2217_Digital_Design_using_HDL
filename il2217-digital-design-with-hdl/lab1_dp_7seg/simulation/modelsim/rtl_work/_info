@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/simulation/modelsim
+Eadd_1
+Z1 w1443474748
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/add_1.vhd
+Z5 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/add_1.vhd
+l0
+L5
+VjJ`hC0]7Gb8=<zCcfN[4=3
+!s100 Se=0=gWckU7VnEo9oMzG?1
+Z6 OV;C;10.3d;59
+33
+Z7 !s110 1443556507
+!i10b 1
+Z8 !s108 1443556507.400939
+Z9 !s90 -reportprogress|300|-2008|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/add_1.vhd|
+Z10 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/add_1.vhd|
+!i113 1
+Z11 o-2008 -work work
+Z12 tExplicit 1
+Artl
+R2
+R3
+DEx4 work 5 add_1 0 22 jJ`hC0]7Gb8=<zCcfN[4=3
+l11
+L10
+V[K78^A<e>XRk;CjPPXkQe1
+!s100 T@4E_iI3KOkfR]^fH8BY`1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eaddsub
+R1
+R2
+R3
+R0
+Z13 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/addsub.vhd
+Z14 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/addsub.vhd
+l0
+L3
+Vf81Y7oGKA:Gj1K>90glBl1
+!s100 c[<@RTK0<A:L87Q8M4:9e1
+R6
+33
+R7
+!i10b 1
+Z15 !s108 1443556507.474873
+Z16 !s90 -reportprogress|300|-2008|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/addsub.vhd|
+Z17 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/addsub.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 6 addsub 0 22 f81Y7oGKA:Gj1K>90glBl1
+l24
+L15
+V;^D5eKAlh;dl^e>8o3RSJ0
+!s100 XgBLNQ@R_m_H2lbG@b0>A3
+R6
+33
+R7
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R11
+R12
+Ealu
+Z18 w1443556325
+R0
+Z19 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/alu.vhd
+Z20 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/alu.vhd
+l0
+L1
+V?OSZLSW;a;^iJ=TSRF85I3
+!s100 YRJeD33:A7W@KgRe:J46A3
+R6
+33
+R7
+!i10b 1
+Z21 !s108 1443556507.540445
+Z22 !s90 -reportprogress|300|-2008|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/alu.vhd|
+Z23 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/alu.vhd|
+!i113 1
+R11
+R12
+Astructural
+DEx4 work 3 alu 0 22 ?OSZLSW;a;^iJ=TSRF85I3
+l46
+L17
+VMc`]DfGBh_zaTMTf05jVR1
+!s100 h>aGPMA@VhGLGC3]]Z6Ml1
+R6
+33
+R7
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Ebcd2_7seg
+R18
+R0
+R19
+R20
+l0
+L95
+V7@m2Y`LKIQ<V]]lNh=Ih12
+!s100 BaG7eIf`Vc:1E5JDK4Y^V3
+R6
+33
+R7
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Abhv
+DEx4 work 9 bcd2_7seg 0 22 7@m2Y`LKIQ<V]]lNh=Ih12
+l103
+L102
+VWMjZhjAZX16Xh7kjP6Tbi0
+!s100 ljbhA7;Hn_aS>ZBK:T3Kg3
+R6
+33
+R7
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Etb_alu
+R1
+Z24 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z25 8/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/tb_ALU.vhd
+Z26 F/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/tb_ALU.vhd
+l0
+L9
+VJ7CK_5kKTFez9@AaKNPOi3
+!s100 k;dEz7faOMIA4f=O6IM;c2
+R6
+33
+R7
+!i10b 1
+Z27 !s108 1443556507.647819
+Z28 !s90 -reportprogress|300|-2008|-work|work|/home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/tb_ALU.vhd|
+Z29 !s107 /home/parallels/workspace/digital_vhdl/il2217-digital-design-using-hdl/lab1_dp_7seg/tb_ALU.vhd|
+!i113 1
+R11
+R12
+Aalutest
+R24
+R2
+R3
+DEx4 work 6 tb_alu 0 22 J7CK_5kKTFez9@AaKNPOi3
+l57
+L11
+V_Rz>Hc6POdS>AR;N<jXMP0
+!s100 2fI^Pmh4A7blRnY?BQo_23
+R6
+33
+R7
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
